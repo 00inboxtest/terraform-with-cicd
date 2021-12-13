@@ -95,8 +95,8 @@ jobs:
     needs: [terraform_plan, terraform_apply]
     if: always()
 
-    steps:
-    - uses: actions/checkout@v2 
+    # steps:
+    # - uses: actions/checkout@v2 
 
     # - name: Apply Slack Notification
       # uses: rtCamp/action-slack-notify@v2
