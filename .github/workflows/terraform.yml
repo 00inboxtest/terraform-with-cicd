@@ -98,15 +98,6 @@ jobs:
     # steps:
     # - uses: actions/checkout@v2 
 
-    # - name: Apply Slack Notification
-      # uses: rtCamp/action-slack-notify@v2
-      # if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      # env:
-        # SLACK_CHANNEL: captain-alert
-        # SLACK_COLOR: ${{ needs.terraform_apply.result }}
-        # SLACK_TITLE: ${{ github.repository }}
-        # SLACK_MESSAGE: ${{ github.event.head_commit.message }}
-        # SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        # SLACK_FOOTER: 'Terraform Github Actions Main Branch Alert'
+
     
 
